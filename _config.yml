@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://pfhawkins.com
+title: P. F. Hawkins "Dot-Com"
+subtitle: IN WHICH Mild Bloggery Occurs
+author: P. F. Hawkins
 simple_search: http://google.com/search
 description:
 
@@ -16,10 +16,10 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /feed/
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: pf@pfhawkins.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
@@ -93,7 +93,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-1294575-2
 
 # Facebook Like
 facebook_like: false
